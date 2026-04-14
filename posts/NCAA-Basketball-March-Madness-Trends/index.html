@@ -208,7 +208,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <p>Every March, millions of brackets get busted within days. Upsets, buzzer beaters, and Cinderella runs make the NCAA Tournament feel completely unpredictable. But what if it’s not? What if the teams that win are actually telling us who they are long before the tournament starts?</p>
 <p>This project looks at whether NCAA Tournament success is truly random, or if the numbers do a better job predicting winners than seeding alone.</p>
-<p>To start, let’s look at the last four tournaments and ask a simple question: do teams with the same seed actually perform the same?</p>
+<p>To start, let’s look at the last four tournaments and ask a simple question: In the 2024 NCAA tournament did being a high seed guarantee a successful tournament?</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -269,23 +269,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output-display">
-<div id="gmkimrkhil" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#gmkimrkhil table {
+<div id="chandohqui" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#chandohqui table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#gmkimrkhil thead, #gmkimrkhil tbody, #gmkimrkhil tfoot, #gmkimrkhil tr, #gmkimrkhil td, #gmkimrkhil th {
+#chandohqui thead, #chandohqui tbody, #chandohqui tfoot, #chandohqui tr, #chandohqui td, #chandohqui th {
   border-style: none;
 }
 
-#gmkimrkhil p {
+#chandohqui p {
   margin: 0;
   padding: 0;
 }
 
-#gmkimrkhil .gt_table {
+#chandohqui .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -311,12 +311,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-left-color: #D3D3D3;
 }
 
-#gmkimrkhil .gt_caption {
+#chandohqui .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#gmkimrkhil .gt_title {
+#chandohqui .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -328,7 +328,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-bottom-width: 0;
 }
 
-#gmkimrkhil .gt_subtitle {
+#chandohqui .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -340,7 +340,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-top-width: 0;
 }
 
-#gmkimrkhil .gt_heading {
+#chandohqui .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -352,13 +352,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-right-color: #D3D3D3;
 }
 
-#gmkimrkhil .gt_bottom_border {
+#chandohqui .gt_bottom_border {
   border-bottom-style: none;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#gmkimrkhil .gt_col_headings {
+#chandohqui .gt_col_headings {
   border-top-style: none;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -373,7 +373,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-right-color: #D3D3D3;
 }
 
-#gmkimrkhil .gt_col_heading {
+#chandohqui .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -393,7 +393,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   overflow-x: hidden;
 }
 
-#gmkimrkhil .gt_column_spanner_outer {
+#chandohqui .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -405,15 +405,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 4px;
 }
 
-#gmkimrkhil .gt_column_spanner_outer:first-child {
+#chandohqui .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#gmkimrkhil .gt_column_spanner_outer:last-child {
+#chandohqui .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#gmkimrkhil .gt_column_spanner {
+#chandohqui .gt_column_spanner {
   border-bottom-style: none;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -425,11 +425,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   width: 100%;
 }
 
-#gmkimrkhil .gt_spanner_row {
+#chandohqui .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#gmkimrkhil .gt_group_heading {
+#chandohqui .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -455,7 +455,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   text-align: left;
 }
 
-#gmkimrkhil .gt_empty_group_heading {
+#chandohqui .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -470,15 +470,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   vertical-align: middle;
 }
 
-#gmkimrkhil .gt_from_md > :first-child {
+#chandohqui .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#gmkimrkhil .gt_from_md > :last-child {
+#chandohqui .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#gmkimrkhil .gt_row {
+#chandohqui .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -497,7 +497,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   overflow-x: hidden;
 }
 
-#gmkimrkhil .gt_stub {
+#chandohqui .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -510,7 +510,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#gmkimrkhil .gt_stub_row_group {
+#chandohqui .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -524,15 +524,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   vertical-align: top;
 }
 
-#gmkimrkhil .gt_row_group_first td {
+#chandohqui .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#gmkimrkhil .gt_row_group_first th {
+#chandohqui .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#gmkimrkhil .gt_summary_row {
+#chandohqui .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -542,16 +542,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#gmkimrkhil .gt_first_summary_row {
+#chandohqui .gt_first_summary_row {
   border-top-style: none;
   border-top-color: #D3D3D3;
 }
 
-#gmkimrkhil .gt_first_summary_row.thick {
+#chandohqui .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#gmkimrkhil .gt_last_summary_row {
+#chandohqui .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -561,7 +561,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-bottom-color: #D3D3D3;
 }
 
-#gmkimrkhil .gt_grand_summary_row {
+#chandohqui .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -571,7 +571,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#gmkimrkhil .gt_first_grand_summary_row {
+#chandohqui .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -581,7 +581,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-top-color: #D3D3D3;
 }
 
-#gmkimrkhil .gt_last_grand_summary_row_top {
+#chandohqui .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -591,11 +591,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-bottom-color: #D3D3D3;
 }
 
-#gmkimrkhil .gt_striped {
+#chandohqui .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#gmkimrkhil .gt_table_body {
+#chandohqui .gt_table_body {
   border-top-style: none;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -604,7 +604,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-bottom-color: #D3D3D3;
 }
 
-#gmkimrkhil .gt_footnotes {
+#chandohqui .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -618,7 +618,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-right-color: #D3D3D3;
 }
 
-#gmkimrkhil .gt_footnote {
+#chandohqui .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -627,7 +627,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#gmkimrkhil .gt_sourcenotes {
+#chandohqui .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -641,7 +641,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-right-color: #D3D3D3;
 }
 
-#gmkimrkhil .gt_sourcenote {
+#chandohqui .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -649,72 +649,72 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#gmkimrkhil .gt_left {
+#chandohqui .gt_left {
   text-align: left;
 }
 
-#gmkimrkhil .gt_center {
+#chandohqui .gt_center {
   text-align: center;
 }
 
-#gmkimrkhil .gt_right {
+#chandohqui .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#gmkimrkhil .gt_font_normal {
+#chandohqui .gt_font_normal {
   font-weight: normal;
 }
 
-#gmkimrkhil .gt_font_bold {
+#chandohqui .gt_font_bold {
   font-weight: bold;
 }
 
-#gmkimrkhil .gt_font_italic {
+#chandohqui .gt_font_italic {
   font-style: italic;
 }
 
-#gmkimrkhil .gt_super {
+#chandohqui .gt_super {
   font-size: 65%;
 }
 
-#gmkimrkhil .gt_footnote_marks {
+#chandohqui .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#gmkimrkhil .gt_asterisk {
+#chandohqui .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#gmkimrkhil .gt_indent_1 {
+#chandohqui .gt_indent_1 {
   text-indent: 5px;
 }
 
-#gmkimrkhil .gt_indent_2 {
+#chandohqui .gt_indent_2 {
   text-indent: 10px;
 }
 
-#gmkimrkhil .gt_indent_3 {
+#chandohqui .gt_indent_3 {
   text-indent: 15px;
 }
 
-#gmkimrkhil .gt_indent_4 {
+#chandohqui .gt_indent_4 {
   text-indent: 20px;
 }
 
-#gmkimrkhil .gt_indent_5 {
+#chandohqui .gt_indent_5 {
   text-indent: 25px;
 }
 
-#gmkimrkhil .katex-display {
+#chandohqui .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#gmkimrkhil div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#chandohqui div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -825,8 +825,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<p>The table above makes one thing clear and thats seeding is not a guarantee of anything. Every seed from 1 through 10 has produced teams that lost immediately and teams that made deep runs. Even the top seeds, which carry the highest expectations, still show a wide range of outcomes from year to year. But looking at individual extremes can be misleading.</p>
-<p>To get a clearer picture, it helps to zoom out and look at averages. Does seeding still matter when you look at the bigger pattern across all four tournaments?</p>
+<p>The table above makes one thing clear and thats seeding is not a guarantee of anything. Every seed from 1 through 10 has produced teams that lost immediately and teams that made deep runs. For example, the 2023 - 2024 Clemson team made it all the way to the Elite 8 as a 6 seed. Even the top seeds, which carry the highest expectations, still show a wide range of outcomes from year to year. But looking at individual extremes can be misleading.</p>
+<p>To get a clearer picture, it helps to zoom out and look at averages from 2021 - 2024. Does seeding still matter when you look at the bigger pattern across all four tournaments?</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
